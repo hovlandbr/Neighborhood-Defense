@@ -10,7 +10,7 @@ Updated: 2026-10-06 (America/Chicago).
 - Confirmed player direction: online co-op first; eventual four-player play and split-screen.
 - Godot/GDScript, hybrid character physics, host-authoritative networking, and a four-total-player session cap are proposals pending confirmation.
 - Gameplay under the working title Neighborhood Defense is not yet defined.
-- Local document validation and remote publication evidence belong in the foundation session; remote verification is pending during preparation.
+- Documentation foundation published and verified on GitHub: all 32 files matched the prepared content at foundation commit `d7f18e7eaddc459e319b32ceb45524e7dc8b8f5e`. Completion records are reconciled in the final handoff commit; see [the session](conversations/2026-10-06-foundation.md).
 
 ## Resume here
 
@@ -23,7 +23,7 @@ Updated: 2026-10-06 (America/Chicago).
 
 | Task | Writer | Branch/scope | Status |
 | --- | --- | --- | --- |
-| ND-000 | Codex, under DIR-001 | Initial Markdown foundation on main | Prepared locally; publication verification pending |
+| None | — | — | Foundation task ND-000 complete; no implementation task claimed |
 
 No claim has been made on game implementation. No Linear project or task sync has been created as part of this work.
 

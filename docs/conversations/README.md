@@ -4,7 +4,7 @@ Project conversations belong in dated Markdown files here. Each independent writ
 
 | Date | Session | Writer | Directive/task | Outcome |
 | --- | --- | --- | --- | --- |
-| 2026-10-06 | [Foundation and earlier planning context](2026-10-06-foundation.md) | Codex with Brent's direct input | DIR-001/002; ND-000 | Documentation prepared; publication verification pending |
+| 2026-10-06 | [Foundation and earlier planning context](2026-10-06-foundation.md) | Codex with Brent's direct input | DIR-001/002; ND-000 | Foundation published, validated, and content-verified; next task ND-001 |
 
 ## Recording policy
 

@@ -6,14 +6,14 @@ Statuses: Proposed -> Authorized -> In progress -> Completed; or Superseded/Canc
 
 ## DIR-001 — Establish the repository documentation foundation
 
-- Status: In progress; local preparation underway, remote verification pending.
+- Status: Completed.
 - Date/source: 2026-10-06; [foundation conversation](../conversations/2026-10-06-foundation.md).
 - Author/authority: Brent, direct user request; Codex is implementing it.
 - Scope: Update `hovlandbr/Neighborhood-Defense` with README, license, development roadmap, and key Markdown files for consistent records, AI directives/conversations, continuity, and discovery by multiple tools.
 - Constraints: Original code/content proprietary per license reply. Mark unresolved product/engine details as proposed. Preserve safe project conversations and avoid private credentials/account material.
 - Tasks: ND-000.
 - Acceptance: Repository contains linked entry points, product roadmap, status/decision/task/conversation records, templates, appropriate rights notice, and verified publication.
-- Completion evidence: To be recorded in the foundation session after remote verification.
+- Completion evidence: [Foundation session](../conversations/2026-10-06-foundation.md); 32 files published and content-verified at commit `d7f18e7eaddc459e319b32ceb45524e7dc8b8f5e`, followed by a completion-record reconciliation commit.
 
 ## DIR-002 — Markdown-first continuity for participating tools
 

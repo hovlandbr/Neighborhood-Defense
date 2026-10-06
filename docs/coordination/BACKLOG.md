@@ -8,7 +8,7 @@ Statuses: Backlog, Ready, In progress, Playtest/Review, Done, Blocked. Claims id
 
 | ID | Outcome | Dependency | Status | Acceptance criteria |
 | --- | --- | --- | --- | --- |
-| ND-000 | Publish the documentation foundation | DIR-001 | In progress | Linked records, proprietary license, validation, verified GitHub publication |
+| ND-000 | Publish the documentation foundation | DIR-001 | Done | Linked records, proprietary license, validation, verified GitHub publication; see foundation session |
 | ND-001 | Agree on the product brief | ND-000 | Ready | Q-001/002/003/005 prioritized; approved central loop and first scope recorded |
 | ND-002 | Confirm tools, versions, target machines | ND-001 | Backlog | Engine/version, OS/GPU details, renderer benchmark plan, actual setup recorded |
 | ND-003 | Finish/export a tiny learning project | ND-002 | Backlog | Runs on both Macs; both authors explain a small independent change |
@@ -34,10 +34,10 @@ Statuses: Backlog, Ready, In progress, Playtest/Review, Done, Blocked. Claims id
 
 | Task | Writer/tool | Branch | Intended scope | Claimed on | Handoff |
 | --- | --- | --- | --- | --- | --- |
-| ND-000 | Codex | main, initial bootstrap authorized by owner | Documentation foundation and validator | 2026-10-06, America/Chicago | [Foundation](../conversations/2026-10-06-foundation.md) |
+| None | — | — | — | — | — |
 
 No claims exist for game implementation. On completion move a claim to the completed-claims history below; do not erase another writer's work. Exact branch revisions are available in Git and should be recorded in future sessions when known.
 
 ## Completed claims
 
-None yet; publication verification pending.
+ND-000: Codex, initial bootstrap on main, completed 2026-10-06. All 32 foundation files verified against GitHub commit `d7f18e7eaddc459e319b32ceb45524e7dc8b8f5e`; see [foundation session](../conversations/2026-10-06-foundation.md). No game implementation claim transferred or opened.
