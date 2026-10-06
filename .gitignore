@@ -1,0 +1,25 @@
+# Local scratch and user-specific data
+work/
+outputs/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated engine/import data and local IDE state
+.godot/
+game/.godot/
+.idea/
+.vscode/
+
+# Generated distributions and caches
+build/
+builds/
+dist/
+exports/
+__pycache__/
+*.pyc
+
+# These rules are not a substitute for checking staged files for secrets.
