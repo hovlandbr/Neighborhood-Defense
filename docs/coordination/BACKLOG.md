@@ -32,9 +32,13 @@ Statuses: Backlog, Ready, In progress, Playtest/Review, Done, Blocked. Claims id
 
 ## Claims
 
+ND-021 — Install Unity on the current Mac: In progress; continuing verification under DIR-004 after interruption and owner's installation. Acceptance: Hub/editor versions and checks recorded, activation limitations explicit. See [initial session](../conversations/2026-10-06-unity-installation.md) and [continuation](../conversations/2026-10-06-development-toolchain.md).
+
+ND-022 — Install game/local AI toolchain: In progress; authorized by DIR-004 independently of ND-001. Acceptance: compatible tools installed, smoke checks and actual commands recorded, handoff published. This does not complete broader ND-002 product/tool selection.
+
 | Task | Writer/tool | Branch | Intended scope | Claimed on | Handoff |
 | --- | --- | --- | --- | --- | --- |
-| None | — | — | — | — | — |
+| ND-021/022 | Codex | `codex/development-toolchain` | Continuing local setup and setup/tooling/status/directive/task/session records; self-transferred from Unity branch after owner's expanded request | 2026-10-06 | [Session](../conversations/2026-10-06-development-toolchain.md) |
 
 No claims exist for game implementation. On completion move a claim to the completed-claims history below; do not erase another writer's work. Exact branch revisions are available in Git and should be recorded in future sessions when known.
 

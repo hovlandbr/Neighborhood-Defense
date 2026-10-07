@@ -35,7 +35,8 @@ def main():
 
     paths = sorted(
         p for p in ROOT.rglob("*.md")
-        if not any(part in {".git", "work", "outputs"} for part in p.relative_to(ROOT).parts)
+        if not any(part in {".git", "work", "outputs", ".venv", ".ipynb_checkpoints"}
+                   for part in p.relative_to(ROOT).parts)
     )
     links = 0
     for path in paths:

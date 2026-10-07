@@ -21,7 +21,7 @@ Use the `hovlandbr` account for this repository when multiple GitHub connections
 | Tool | Purpose | License/cost category | Selection |
 | --- | --- | --- | --- |
 | Godot | Engine, scripting, levels, UI | Free/open source, MIT | Proposed |
-| Blender | 3D authoring and animation | Free/open source, GPL application | Proposed |
+| Blender | 3D authoring and animation | Free/open source, GPL application | Installed on current Mac; see DEVELOPMENT |
 | Krita | Painting and textures | Free/open source, GPL application | Proposed |
 | Audacity | Audio recording/editing | Free/open source, GPL application | Proposed |
 | Git | Version control | Free/open-source software | Repository workflow |
@@ -30,6 +30,15 @@ Use the `hovlandbr` account for this repository when multiple GitHub connections
 | Inkscape / OBS | Vector art / gameplay recordings | Free/open-source applications | Optional |
 
 Keep application licensing separate from asset and game licensing. Verify current terms when adopting a tool/service; avoid paid hosting or broad permissions without owner direction.
+
+## Installed software for evaluation
+
+The owner's setup requests installed VS Code/Unity C# extensions, Blender LTS, .NET SDK, Git LFS, GitHub CLI, Node LTS, uv/Python/Ruff, and an isolated Jupyter/local AI environment on the current Mac. Unity and Ollama were already present when the setup resumed. Exact versions and verification live in [DEVELOPMENT.md](DEVELOPMENT.md) and [LOCAL_AI.md](LOCAL_AI.md); these records supersede any assumption that every tool is merely proposed.
+
+Unity, VS Code's distributed binaries, and Microsoft extensions have their own proprietary terms; Blender/Git LFS/Node/uv/.NET are open-source tools. No paid account or service was configured. Desktop installation is not a game runtime dependency or proof of an external integration. GitHub CLI is installed but not signed in; the existing GitHub connector remains separate. Linear and Docker applications were observed locally, but their project configuration/runtime was not tested or changed.
+
+Official setup references: [Unity Hub](https://docs.unity.com/en-us/hub/install-hub-win-mac), [VS Code Unity support](https://code.visualstudio.com/docs/other/unity), [.NET on macOS](https://learn.microsoft.com/en-us/dotnet/core/install/macos), [uv installation](https://docs.astral.sh/uv/getting-started/installation/), [Node downloads](https://nodejs.org/en/download), [Git LFS](https://git-lfs.com/), [GitHub CLI](https://cli.github.com/), [Blender release downloads](https://download.blender.org/release/Blender4.5/).
+
 
 ## Markdown-first synchronization contract
 

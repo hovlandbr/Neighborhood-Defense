@@ -16,6 +16,7 @@ Start with [current status](STATUS.md). This table defines which document owns e
 | [RISKS.md](RISKS.md) | Concrete risks and mitigation triggers | Evidence changes a risk |
 | [ARCHITECTURE.md](ARCHITECTURE.md) | Technical design and ownership boundaries | Design changes |
 | [DEVELOPMENT.md](DEVELOPMENT.md) | Setup, versions, actual commands | Setup/build workflow is implemented |
+| [LOCAL_AI.md](LOCAL_AI.md) | Local model/notebook development and hardware limits | AI toolchain or local workflow changes |
 | [TESTING.md](TESTING.md) | Verification strategy and reproducible checks | Test workflow changes |
 | [TOOLING.md](TOOLING.md) | Tools, integrations, permissions evidence | A connection/tool is added or changes |
 | [LICENSING.md](LICENSING.md) | Rights policy, external asset/dependency register | A license or external asset changes |

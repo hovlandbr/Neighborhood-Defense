@@ -21,5 +21,7 @@ dist/
 exports/
 __pycache__/
 *.pyc
+.venv/
+.ipynb_checkpoints/
 
 # These rules are not a substitute for checking staged files for secrets.
