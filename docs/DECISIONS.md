@@ -53,3 +53,12 @@ Accepted decisions require a direct human source or an explicitly delegated deci
 - Source: Owner considered Linear; later explicitly requested Markdown-based continuity.
 - Proposal: Keep Markdown canonical and mirror tasks to Linear with reciprocal links.
 - Current state: No Linear project or sync created. A tool connection alone is not a configured project.
+
+## DEC-007 — Local development tools for evaluation
+
+- Status: Accepted within installation scope.
+- Date: 2026-10-06.
+- Authority: Brent's direct Unity installation and subsequent development/local AI setup requests in [the toolchain session](conversations/2026-10-06-development-toolchain.md).
+- Decision: Install/verify Unity and supporting game/local AI development tools on this Mac, preserving existing settings/models and proprietary project rights.
+- Implementation: [Development register](DEVELOPMENT.md), [local AI workflow](LOCAL_AI.md), locked Python environment.
+- Limit: Does not accept Unity as the final engine, create a game, configure the separate desktop, or approve a training project. DEC-004 remains a historical proposal.

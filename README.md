@@ -2,7 +2,7 @@
 
 A first game built by Brent and Jax: an original 3D physics game inspired by the playful interactions and cooperative exploration of Wobbly Life.
 
-**Stage:** planning and repository foundation. There is no playable game or engine project yet.
+**Stage:** planning, repository foundation, and local development tools. There is no playable game or engine project yet.
 
 **Confirmed direction:** online co-op first; eventual four-player play and split-screen. The exact defense gameplay, engine selection, and split-screen combinations remain open.
 
@@ -36,6 +36,8 @@ Keep credentials, private account information, and unrelated personal conversati
 - Eventual split-screen; mixed local/online sessions are not yet confirmed.
 - Small, original 3D environment and understandable physics interactions.
 - Godot with GDScript and a hybrid physics character is the current proposal, not an approved engine decision.
+- Unity is installed on the current Mac at the owner's request; [the development register](docs/DEVELOPMENT.md) records actual versions. Installation alone does not settle the final engine decision.
+- [Local AI development](docs/LOCAL_AI.md) has an isolated Python environment, notebooks, and a tested local Ollama model.
 - Both Intel MacBooks are development/test targets; the desktop is an additional development/test machine.
 - Prefer free/open-source development software. Using those tools does not make this game open source.
 
