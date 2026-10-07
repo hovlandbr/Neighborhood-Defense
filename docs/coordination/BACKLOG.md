@@ -32,16 +32,18 @@ Statuses: Backlog, Ready, In progress, Playtest/Review, Done, Blocked. Claims id
 
 ## Claims
 
-ND-021 — Install Unity on the current Mac: In progress; continuing verification under DIR-004 after interruption and owner's installation. Acceptance: Hub/editor versions and checks recorded, activation limitations explicit. See [initial session](../conversations/2026-10-06-unity-installation.md) and [continuation](../conversations/2026-10-06-development-toolchain.md).
+ND-021 — Verify Unity on the current Mac: Done under DIR-004 after interruption and owner's installation. Hub/editor versions recognized and executable checked; activation remains unverified. Original DIR-003 superseded. See [initial session](../conversations/2026-10-06-unity-installation.md) and [continuation](../conversations/2026-10-06-development-toolchain.md).
 
-ND-022 — Install game/local AI toolchain: In progress; authorized by DIR-004 independently of ND-001. Acceptance: compatible tools installed, smoke checks and actual commands recorded, handoff published. This does not complete broader ND-002 product/tool selection.
+ND-022 — Install game/local AI toolchain: Done within current-Mac setup scope; authorized by DIR-004 independently of ND-001. Compatible tools installed and smoke-tested; handoff published in [PR #1](https://github.com/hovlandbr/Neighborhood-Defense/pull/1), awaiting owner review/merge. This does not complete broader ND-002 product/tool selection or desktop training.
 
 | Task | Writer/tool | Branch | Intended scope | Claimed on | Handoff |
 | --- | --- | --- | --- | --- | --- |
-| ND-021/022 | Codex | `codex/development-toolchain` | Continuing local setup and setup/tooling/status/directive/task/session records; self-transferred from Unity branch after owner's expanded request | 2026-10-06 | [Session](../conversations/2026-10-06-development-toolchain.md) |
+| None | — | — | — | — | — |
 
 No claims exist for game implementation. On completion move a claim to the completed-claims history below; do not erase another writer's work. Exact branch revisions are available in Git and should be recorded in future sessions when known.
 
 ## Completed claims
+
+ND-021/022: Codex, `codex/development-toolchain`, 2026-10-06. Continued after owner's Unity installation and expanded setup request. Local tools checked; 20 changed files verified against published commit `de9c5e814af40b433f46103c792f3d5b50124b7f`; completion records follow. [Session](../conversations/2026-10-06-development-toolchain.md), [PR #1](https://github.com/hovlandbr/Neighborhood-Defense/pull/1). No claim transferred to game implementation.
 
 ND-000: Codex, initial bootstrap on main, completed 2026-10-06. All 32 foundation files verified against GitHub commit `d7f18e7eaddc459e319b32ceb45524e7dc8b8f5e`; see [foundation session](../conversations/2026-10-06-foundation.md). No game implementation claim transferred or opened.

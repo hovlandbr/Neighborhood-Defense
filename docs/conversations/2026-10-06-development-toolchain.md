@@ -90,3 +90,16 @@ Initial Blender CLI check failed because a symlink made bundled Python/resource 
 - Human follow-up: Open Unity Hub and finish sign-in/license activation if prompted. Terminal GitHub uses `gh auth login --hostname github.com --web`; connected GitHub access does not sign the terminal in.
 - Next action: Review this setup PR, then resolve ND-001 product/engine questions before creating a game project. For local experiments, use [LOCAL_AI.md](../LOCAL_AI.md).
 - Publication evidence and final response are appended after GitHub verification. No game behavior is claimed.
+
+## Publication and completed handoff
+
+- Published initial setup records at commit `de9c5e814af40b433f46103c792f3d5b50124b7f` on `codex/development-toolchain`.
+- [PR #1](https://github.com/hovlandbr/Neighborhood-Defense/pull/1) opened and attached to this chat. It is not merged; main still contains the earlier foundation.
+- Verified all 20 changed files byte-for-byte against fetched GitHub branch content. Local branch aligned only after those comparisons passed; no files were overwritten.
+- ND-021/022 complete in local setup scope. DIR-003 superseded; DIR-004 complete. Installation claims closed; no game implementation claim started. Current status/index records reconciled in the following commit.
+- Documentation validation rerun after handoff updates; no game tests claimed. GitHub CLI remains signed out; Unity license activation remains unverified.
+- Next: review/merge PR #1, then use ND-001 to confirm product/engine direction. Local AI/notebook experiments can start now using the documented commands.
+
+## Final response — prepared for delivery
+
+Installed and tested the supporting tools: VS Code with Unity/C#/Python/Jupyter support, Blender 4.5.14 LTS, .NET SDK, Git LFS/GitHub CLI, Node LTS, uv/Python/Ruff, and a locked local AI notebook environment. Unity 6000.6.4f1 was verified. Existing Ollama/model settings were preserved, and the small local coding model answered successfully. Setup records are in PR #1. Open a new terminal for tool paths; complete Unity Hub activation if prompted and terminal GitHub login when needed. The RTX 4090 desktop is the proposed place for heavier AI work; no remote desktop setup was performed.

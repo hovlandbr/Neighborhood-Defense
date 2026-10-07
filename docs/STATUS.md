@@ -16,6 +16,7 @@ Updated: 2026-10-06 (America/Chicago).
 ## Resume here
 
 1. Read [active directives](coordination/AI_DIRECTIVES.md) and [latest session](conversations/2026-10-06-development-toolchain.md).
+   Setup records are on `codex/development-toolchain` in [PR #1](https://github.com/hovlandbr/Neighborhood-Defense/pull/1), awaiting review/merge. Do not assume main contains them yet.
 2. Next task: **ND-001**, agree on a one-page product concept using [PRODUCT.md](PRODUCT.md) and [QUESTIONS.md](QUESTIONS.md).
 3. Resolve the defense loop and desired split-screen combinations before committing content scope. Engine selection and desktop OS are also open.
 4. After authorized answers, record decisions, update the brief/backlog, and begin ND-002 setup.
@@ -24,7 +25,7 @@ Updated: 2026-10-06 (America/Chicago).
 
 | Task | Writer | Branch/scope | Status |
 | --- | --- | --- | --- |
-| ND-021/022 | Codex | `codex/development-toolchain`; local development tools and Markdown records | In progress; [session](conversations/2026-10-06-development-toolchain.md) |
+| None | — | Setup delivered on `codex/development-toolchain` | ND-021/022 complete; [PR #1](https://github.com/hovlandbr/Neighborhood-Defense/pull/1) awaiting review/merge |
 
 No claim has been made on game implementation. No Linear project or task sync has been created as part of this work.
 

@@ -4,8 +4,8 @@ Project conversations belong in dated Markdown files here. Each independent writ
 
 | Date | Session | Writer | Directive/task | Outcome |
 | --- | --- | --- | --- | --- |
-| 2026-10-06 | [Game and local AI toolchain](2026-10-06-development-toolchain.md) | Codex with Brent's direct input | DIR-004; ND-021/022 | Continuing Unity verification; additional tools in progress |
-| 2026-10-06 | [Unity installation](2026-10-06-unity-installation.md) | Codex with Brent's direct input | DIR-003; ND-021 | Installation in progress |
+| 2026-10-06 | [Game and local AI toolchain](2026-10-06-development-toolchain.md) | Codex with Brent's direct input | DIR-004; ND-021/022 | Installed/smoke-tested; records verified on PR #1 branch; awaiting review/merge |
+| 2026-10-06 | [Unity installation](2026-10-06-unity-installation.md) | Codex with Brent's direct input | DIR-003; ND-021 | Interrupted; continued verification in toolchain session after owner's installation |
 | 2026-10-06 | [Foundation and earlier planning context](2026-10-06-foundation.md) | Codex with Brent's direct input | DIR-001/002; ND-000 | Foundation published, validated, and content-verified; next task ND-001 |
 
 ## Recording policy

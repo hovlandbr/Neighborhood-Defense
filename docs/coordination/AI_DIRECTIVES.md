@@ -38,13 +38,14 @@ Statuses: Proposed -> Authorized -> In progress -> Completed; or Superseded/Canc
 
 ## DIR-004 — Install game and local AI development tools
 
-- Status: In progress.
+- Status: Completed within local setup scope; documentation PR open for review.
 - Date/source: 2026-10-06; [toolchain session](../conversations/2026-10-06-development-toolchain.md).
 - Author/authority: Brent, direct request to install other tools needed for development and local AI.
 - Scope: Verify Unity and existing tools; install a practical free development toolchain locally; record reproducible setup and limitations.
 - Constraints: Preserve existing data/settings/models, no paid subscription or unrequested game implementation. Use Intel-compatible downloads and isolated Python environments. Do not represent local installation as setup of the separate desktop.
 - Tasks: ND-021/022.
 - Acceptance: Installed tool versions and functional smoke checks recorded, commands available in a new terminal, unresolved human/account/platform steps explicit, Markdown handoff published for review.
+- Evidence: [Session](../conversations/2026-10-06-development-toolchain.md); [PR #1](https://github.com/hovlandbr/Neighborhood-Defense/pull/1). Initial 20 changed files verified against published commit `de9c5e814af40b433f46103c792f3d5b50124b7f`; completion records follow on the same branch.
 
 
 ## Proposed next directive
